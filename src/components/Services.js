@@ -37,13 +37,13 @@ function Services() {
   ];
 
   return (
-    <div className="services-section py-5 bg-light">
+    <div className="services-section py-5">
       <Container>
         <h2 className="text-center mb-5">Our Services</h2>
         <Row className="g-4">
           {serviceItems.map((service, index) => (
             <Col md={6} lg={4} key={index}>
-              <Card className="h-100 shadow-sm border-0">
+              <Card className="h-100">
                 <Card.Body className="text-center">
                   {service.icon}
                   <Card.Title as="h4" className="mt-3 mb-2">{service.title}</Card.Title>

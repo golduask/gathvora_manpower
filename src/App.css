@@ -1,54 +1,108 @@
+body {
+  background-color: #121212;
+  color: #e0e0e0;
+  font-family: 'Montserrat', sans-serif;
+}
+
 .App {
   text-align: center;
 }
 
-/* Darker color scheme */
+/* New Dark Theme */
 :root {
-  --primary-dark: #212529; /* Dark charcoal */
-  --primary-blue: #0d6efd; /* Bootstrap primary blue */
-  --light-gray: #f8f9fa; /* Light gray */
+  --background-dark: #121212;
+  --surface-dark: #1e1e1e;
+  --primary-accent: #00aaff;
+  --primary-text: #e0e0e0;
+  --secondary-text: #a0a0a0;
 }
 
 .hero-section {
-  background-color: var(--primary-blue);
-  color: white;
+  background-color: var(--surface-dark);
+  color: var(--primary-text);
   padding: 100px 0;
+  border-bottom: 1px solid #333;
 }
 
 .hero-section h1 {
   font-size: 3.5rem;
   font-weight: 700;
+  color: var(--primary-accent);
 }
 
 .hero-section .lead {
   font-size: 1.5rem;
   margin-bottom: 30px;
+  color: var(--secondary-text);
 }
 
 .navbar {
-  background-color: var(--primary-dark) !important;
+  background-color: var(--surface-dark) !important;
+  border-bottom: 1px solid #333;
 }
 
 .navbar .navbar-brand,
 .navbar .nav-link {
-  color: white !important;
+  color: var(--primary-text) !important;
+}
+
+.navbar .nav-link:hover {
+  color: var(--primary-accent) !important;
 }
 
 .footer-section {
-  background-color: var(--primary-dark);
-  color: white;
+  background-color: var(--surface-dark);
+  color: var(--primary-text);
+  border-top: 1px solid #333;
 }
 
 .btn-primary {
-  background-color: var(--primary-blue);
-  border-color: var(--primary-blue);
+  background-color: var(--primary-accent);
+  border-color: var(--primary-accent);
+  color: #fff;
 }
 
 .btn-primary:hover {
-  background-color: #0b5ed7; /* Darker blue */
-  border-color: #0a58ca;
+  background-color: #0088cc;
+  border-color: #0088cc;
 }
 
-.bg-light {
-  background-color: var(--light-gray) !important;
+.btn-outline-light {
+    color: var(--primary-accent);
+    border-color: var(--primary-accent);
+}
+
+.btn-outline-light:hover {
+    background-color: var(--primary-accent);
+    color: var(--background-dark);
+}
+
+.about-us-section,
+.why-choose-us-section {
+  background-color: var(--background-dark);
+  padding: 60px 0;
+}
+
+.services-section,
+.brochure-section {
+  background-color: var(--surface-dark);
+  padding: 60px 0;
+}
+
+.card {
+  background-color: var(--background-dark);
+  border: 1px solid #333;
+  color: var(--primary-text);
+}
+
+.text-primary {
+    color: var(--primary-accent) !important;
+}
+
+.text-success {
+    color: var(--primary-accent) !important;
+}
+
+.why-choose-us-section .fa-check-circle {
+  font-size: 24px !important; /* Explicitly set icon size */
 }

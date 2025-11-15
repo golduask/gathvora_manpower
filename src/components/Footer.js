@@ -12,10 +12,10 @@ function Footer() {
           </Col>
           <Col md={6} className="text-center text-md-end">
             <p className="mb-1">
-              <FaPhone className="me-2" /> Call / WhatsApp: +91-XXXXXXXXXX
+              <FaPhone className="me-2" /> Call / WhatsApp: +91-1169296745
             </p>
             <p className="mb-0">
-              <FaEnvelope className="me-2" /> Email: info@gathvora.com
+              <FaEnvelope className="me-2" /> Email: contact@gathvora.com
             </p>
           </Col>
         </Row>

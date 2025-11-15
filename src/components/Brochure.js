@@ -4,7 +4,7 @@ import { FaFilePdf } from 'react-icons/fa'; // Placeholder icon
 
 function Brochure() {
   return (
-    <div className="brochure-section py-5 bg-light">
+    <div className="brochure-section py-5">
       <Container className="text-center">
         <h2 className="mb-4">Company Brochure</h2>
         <p className="lead mb-4">Download our detailed brochure to learn more about our services, workforce capabilities, and how we can make your event successful.</p>
