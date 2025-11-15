@@ -1,23 +1,23 @@
 import React from 'react';
 import { Container, Row, Col, Card } from 'react-bootstrap';
-import { FaTheaterMasks, FaRing, FaBuilding, FaUsers, FaTruck, FaTools } from 'react-icons/fa'; // Placeholder icons
+import { FaTheaterMasks, FaRing, FaBuilding, FaUsers, FaTruck, FaTools, FaBullhorn, FaPalette, FaClipboardCheck } from 'react-icons/fa'; // Placeholder icons
 
 function Services() {
   const serviceItems = [
     {
-      icon: <FaTheaterMasks size={50} className="text-primary mb-3" />,
-      title: 'Event Manpower Supply',
-      description: 'Comprehensive staffing solutions for all types of events and gatherings',
+      icon: <FaUsers size={50} className="text-primary mb-3" />,
+      title: 'Event Staffing & On-Ground Operations',
+      description: 'From hosts and ushers to security and bouncers, our trained professionals ensure smooth coordination, guest handling, and on- site efficiency at every event.',
     },
     {
-      icon: <FaRing size={50} className="text-primary mb-3" />,
-      title: 'Wedding Workforce',
-      description: 'Skilled professionals for seamless wedding ceremonies and celebrations',
+      icon: <FaBullhorn size={50} className="text-primary mb-3" />,
+      title: 'Brand Promotions & Marketing Support',
+      description: 'Our promoters and brand ambassadors represent your brand with confidence, driving audience engagement and visibility at activations, launches, and campaigns.',
     },
     {
-      icon: <FaBuilding size={50} className="text-primary mb-3" />,
-      title: 'Corporate Event Staffing',
-      description: 'Professional team for conferences, seminars, and corporate functions',
+      icon: <FaPalette size={50} className="text-primary mb-3" />,
+      title: 'Venue, Decor & Theme Setup',
+      description: 'We handle venue arrangements, stage design, and decor execution — transforming spaces into experiences that reflect your event\'s style and purpose.',
     },
     {
       icon: <FaUsers size={50} className="text-primary mb-3" />,
@@ -25,9 +25,9 @@ function Services() {
       description: 'Dedicated staff for venue management and guest coordination',
     },
     {
-      icon: <FaTruck size={50} className="text-primary mb-3" />,
-      title: 'Logistics & Support Crew',
-      description: 'Expert handling of equipment, setup, and event logistics',
+      icon: <FaClipboardCheck size={50} className="text-primary mb-3" />,
+      title: 'Supervisory & Project Management',
+      description: 'Experienced supervisors oversee every project, managing manpower, schedules, and quality — ensuring flawless, on-time execution.',
     },
     {
       icon: <FaTools size={50} className="text-primary mb-3" />,

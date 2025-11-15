@@ -12,7 +12,7 @@ function Header() {
             className="d-block mx-auto"
             alt="Gathvora logo"
           />
-          <h1 className="text-white mt-2" style={{ fontSize: '2.5rem' }}>GATHVORA</h1>
+          <h1 className="mt-2" style={{ fontSize: '2.5rem', fontWeight: 'bold', color: '#929a9dff' }}>GATHVORA</h1>
         </Navbar.Brand>
       </Container>
     </Navbar>

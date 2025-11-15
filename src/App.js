@@ -5,7 +5,6 @@ import Hero from './components/Hero';
 import AboutUs from './components/AboutUs';
 import Services from './components/Services';
 import WhyChooseUs from './components/WhyChooseUs';
-import Brochure from './components/Brochure';
 import Footer from './components/Footer';
 
 function App() {
@@ -16,7 +15,6 @@ function App() {
       <AboutUs />
       <Services />
       <WhyChooseUs />
-      <Brochure />
       <Footer />
     </div>
   );

@@ -9,7 +9,10 @@ function Hero() {
         <p className="lead">Your trusted partner for professional event manpower across India</p>
         <div className="mt-4">
           <Button as="a" href="https://wa.me/911169296745" target="_blank" rel="noopener noreferrer" variant="primary" size="lg" className="me-3">📱 Call / WhatsApp Now</Button>
-          <Button as="a" href="mailto:contact@gathvora.com" variant="outline-primary" size="lg">✉️ Contact via Email</Button>
+          <Button as="a" href="mailto:contact@gathvora.com" variant="outline-primary" size="lg" className="me-3">✉️ Contact via Email</Button>
+          <div className="mt-3">
+            <Button as="a" href="/resources/gathvora.pdf" download variant="primary" size="lg">📄 Download Brochure</Button>
+          </div>
         </div>
       </Container>
     </div>
